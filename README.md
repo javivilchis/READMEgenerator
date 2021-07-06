@@ -42,10 +42,10 @@ To test this application, you will have to run the app with node.
 javier vilchis @ [Email](javivilchis@gmail.com)
 
 ## The Video
-This is the animated gif preview:
+This is the animated gif preview:<br>
 ![plot](https://media.giphy.com/media/0Y3VDnXADVapLfjk7q/giphy.gif)
 
-* You Can view the full instruction video here *<br>
+*You Can view the full instruction video here *<br>
 [Full Video](https://drive.google.com/file/d/1-Yq3-mnTxCp6UhqMcMD_lOlG7gP4UuDe/view)
 
-**version 1.0 ** 
+*version 1.01*
