@@ -88,7 +88,6 @@ inquirer
      });
  
 var createMarkup = (response) =>{
-//create table of contents from response
 
 let pageToc = `## Table of contents`;
 if (response.installation !== '') { pageToc += `
@@ -157,7 +156,7 @@ pageMarkup += `
 
 *If you have a concern or input abou the project, you can contact:*
 <br>
-${response.name} :  [Email](${response.email})`;
+Please contact ${response.name} via [Email](${response.email})`;
 //return markdown
 return pageMarkup; 
 }
