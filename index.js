@@ -109,7 +109,7 @@ inquirer
 var createMarkup = (response) =>{
 //create table of contents from response
 
-let pageToc += `## Table of contents`;
+let pageToc = `## Table of contents`;
 if (response.installation !== '') { pageToc += `
 * [Installation](#installation)` };
 
