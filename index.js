@@ -131,7 +131,6 @@ let pageMarkup =
 `# ${response.title}
 
 <br>
-[![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-brightgreen.svg)](https://opensource.org/licenses/${response.license})
 
 ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br />
 
@@ -159,9 +158,10 @@ pageMarkup += `
 ${response.process}`;
 
 // create contribution
+console.log("contribute: ",response.contribute);
 if(response.contribute !== ''){
-`
-## Contributing
+     pageMarkup +=`
+## contributing
   
 *If you would like to contribute it, you can follow these guidelines for how to do so.*
 ${response.contribute}`;
@@ -177,7 +177,8 @@ pageMarkup += `
 ## Questions
 
 *If you have a concern or input abou the project, you can contact:*
-${response.name} :  ${response.email}`;
+<br>
+${response.name} :  [Email](${response.email})`;
 //return markdown
-return pageMarkup; //console.log(JSON.stringify(pageMarkup, true));
+return pageMarkup; 
 }
