@@ -108,8 +108,8 @@ inquirer
 
 var createMarkup = (response) =>{
 //create table of contents from response
-let pageToc = `# README File Generator `;
 
+let pageToc += `## Table of contents`;
 if (response.installation !== '') { pageToc += `
 * [Installation](#installation)` };
 
@@ -138,7 +138,7 @@ let pageMarkup =
 
 *The objective of this project:* 
 
-${response.description}`;
+${response.description}<br>`;
 // add Table of contents
 pageMarkup += pageToc;
 

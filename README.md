@@ -1,4 +1,4 @@
-# the project
+# The project title
 
 <br>
 
@@ -7,29 +7,34 @@
 ## Description 
 
 *The objective of this project:* 
+The project Description# README File Generator <br>
 
-the description# README File Generator 
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#testing)
 * [Questions](#questions)
 ## Installation
-this is the process
+the process
 ## Usage 
   
 *Instructions and examples for use:*
-the usage for the project
+The use for your project ie this will decrease the amount of time to generate the readme file.
 undefined
 ## contributing
   
 *If you would like to contribute it, you can follow these guidelines for how to do so.*
-this is the way
+your contribution requisites.
 ## Testing
 *Please follow these directions to test the app.
-these are the test instructions
+your test instructions
 ## Questions
 
 *If you have a concern or input abou the project, you can contact:*
 <br>
 javier :  [Email](javivilchis@gmail.com)
+
+## The Video
+* You Can view the full instruction video here *<br>
+[Full Video](https://drive.google.com/file/d/1-Yq3-mnTxCp6UhqMcMD_lOlG7gP4UuDe/view)
