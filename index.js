@@ -1,12 +1,5 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-// run npm init -y
-// Install the necessary modules:
-// 1. npm install inquirer
-// 2. npm install fs
-// run the app
-// node index.js
 
 inquirer
   .prompt([
@@ -94,18 +87,6 @@ inquirer
        
      });
  
-// title of project
-// Description
-
-// TOC
-// installation
-// usage
-// license
-// contributing
-// tests
-// questions
-
-
 var createMarkup = (response) =>{
 //create table of contents from response
 
@@ -125,8 +106,6 @@ if (response.contribution !== '') { pageToc += `
 if (response.questions !== '') { pageToc += `
 * [Questions](#questions)` };
 
-// Initial requirement
-// Generate markdown for the top required portions of the README
 let pageMarkup = 
 `# ${response.title}
 
