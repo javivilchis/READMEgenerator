@@ -1,7 +1,6 @@
-# Readme file generator
+# README file generator
 
-<br>
-[![License: Apache](https://img.shields.io/badge/License-Apache-brightgreen.svg)](https://opensource.org/licenses/Apache)
+## License
 
 ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
 
